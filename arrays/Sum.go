@@ -1,8 +1,8 @@
 package main
 
-func Sum(numbers [5]int) (sum int){
+func Sum(numbers []int) (sum int){
 	sum = 0
-	for _, number := range(numbers) {
+	for _, number := range numbers {
 		sum += number
 	}
 
